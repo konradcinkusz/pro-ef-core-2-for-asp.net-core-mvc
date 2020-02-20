@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\11 - Working with EF Core",
+    "\\11 - Working with EF Core\\DataApp",
+    "\\11 - Working with EF Core\\DataApp\\DataApp",
+    "\\13 - Understanding Migrations",
+    "\\13 - Understanding Migrations\\DataApp",
+    "\\13 - Understanding Migrations\\DataApp\\DataApp",
+    "\\13 - Understanding Migrations\\DataApp\\DataApp\\Models"
+  ],
+  "SelectedNode": "\\13 - Understanding Migrations\\DataApp\\DataApp\\Models\\EFCustomerContext.cs",
+  "PreviewInSolutionExplorer": false
+}

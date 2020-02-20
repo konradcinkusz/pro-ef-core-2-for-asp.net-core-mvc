@@ -8,3 +8,16 @@ C:\Users\adam\Documents\Books\Pro Entity Framework Core for MVC Developers\Sourc
 C:\Users\adam\Documents\Books\Pro Entity Framework Core for MVC Developers\Source Code\Current\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.AssemblyInfo.cs
 C:\Users\adam\Documents\Books\Pro Entity Framework Core for MVC Developers\Source Code\Current\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.dll
 C:\Users\adam\Documents\Books\Pro Entity Framework Core for MVC Developers\Source Code\Current\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.pdb
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\appsettings.json
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\bower.json
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\DataApp.deps.json
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\DataApp.runtimeconfig.json
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\DataApp.runtimeconfig.dev.json
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\DataApp.dll
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\bin\Debug\netcoreapp2.0\DataApp.pdb
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.csprojAssemblyReference.cache
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.AssemblyInfoInputs.cache
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.AssemblyInfo.cs
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.dll
+E:\Adam Freeman EF\pro-ef-core-2-for-asp.net-core-mvc\13 - Understanding Migrations\DataApp\DataApp\obj\Debug\netcoreapp2.0\DataApp.pdb
