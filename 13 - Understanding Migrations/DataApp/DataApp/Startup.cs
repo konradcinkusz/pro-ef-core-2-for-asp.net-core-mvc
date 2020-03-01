@@ -10,20 +10,23 @@ using DataApp.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace DataApp {
-    public class Startup {
+namespace DataApp
+{
+    public class Startup
+    {
 
         public Startup(IConfiguration config) => Configuration = config;
 
         public IConfiguration Configuration { get; }
 
-        public void ConfigureServices(IServiceCollection services) {
+        public void ConfigureServices(IServiceCollection services)
+        {
             services.AddMvc();
             string conString = Configuration["ConnectionStrings:DefaultConnection"];
             services.AddDbContext<EFDatabaseContext>(options =>
                 options.UseSqlServer(conString));
 
-            string customerConString = 
+            string customerConString =
                 Configuration["ConnectionStrings:CustomerConnection"];
             services.AddDbContext<EFCustomerContext>(options =>
                 options.UseSqlServer(customerConString));
@@ -31,16 +34,21 @@ namespace DataApp {
             services.AddTransient<IDataRepository, EFDataRepository>();
             services.AddTransient<ICustomerRepository, EFCustomerRepository>();
             services.AddTransient<MigrationsManager>();
+            services.AddTransient<ISupplierRepository, SupplierRepository>();
+            services.AddTransient<IGenericRepository<ContactDetails>, GenericRepository<ContactDetails>>();
+            services.AddTransient<IGenericRepository<ContactLocation>, GenericRepository<ContactLocation>>();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, 
-                EFDatabaseContext prodCtx, EFCustomerContext custCtx) {
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
+                EFDatabaseContext prodCtx, EFCustomerContext custCtx)
+        {
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
-            if (env.IsDevelopment()) {
+            if (env.IsDevelopment())
+            {
                 SeedData.Seed(prodCtx);
                 SeedData.Seed(custCtx);
             }
